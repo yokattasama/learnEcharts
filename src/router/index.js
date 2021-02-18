@@ -1,14 +1,16 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import Home from '../views/Home.vue';
+import Progress from '../views/Progress.vue';
 
 Vue.use(VueRouter);
 
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home,
+  },
+  {
+    path: '/progress',
+    component: Progress,
   },
   {
     path: '/about',
