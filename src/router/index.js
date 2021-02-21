@@ -7,6 +7,7 @@ Vue.use(VueRouter);
 const routes = [
   {
     path: '/',
+    redirect: '/progress'
   },
   {
     path: '/progress',
@@ -20,6 +21,11 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue'),
   },
+  {
+    path: '/rank',
+    name: 'Rank',
+    component: () => import(/* webpackChunkName: "Rank" */ '../views/Rank.vue')
+  }
 ];
 
 const router = new VueRouter({

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>首页</h1>
+    <h1>目标完成比例</h1>
     <div id="container"></div>
   </div>
 </template>
@@ -123,8 +123,8 @@ export default {
 
 <style lang="less" scoped>
   #container {
-    height: 600px;
-    width: 900px;
+    height: 500px;
+    width: 700px;
     margin: 0 auto;
   }
 </style>
