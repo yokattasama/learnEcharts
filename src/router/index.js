@@ -25,7 +25,12 @@ const routes = [
     path: '/rank',
     name: 'Rank',
     component: () => import(/* webpackChunkName: "Rank" */ '../views/Rank.vue')
-  }
+  },
+  {
+    path: '/robot',
+    name: 'Robot',
+    component: () => import(/* webpackChunkName: "Rank" */ '../views/RobotStatic.vue')
+  },
 ];
 
 const router = new VueRouter({

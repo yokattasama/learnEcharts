@@ -3,6 +3,7 @@
     <div id="nav">
       <router-link to="/progress">Progress</router-link> |
       <router-link to="/rank">Rank</router-link>  |
+      <router-link to="/robot">Robot</router-link>  |
       <router-link to="/about">About</router-link>  |
     </div>
     <!-- <keep-alive> -->
